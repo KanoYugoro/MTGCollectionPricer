@@ -1,0 +1,118 @@
+{
+    "apiBase": "https://www.mtggoldfish.com/sets",
+    "apiSealedPostfix": "Sealed#paper",
+    "apiCompleteSetPostfix": "Main+Set#paper",
+    "sealedProduct": [{
+        "displaySetName": "Strixhaven: School of Mages",
+        "endpointName": "Strixhaven+School+of+Mages",
+        "items": [{
+            "name": "Strixhaven: School of Mages Collector Booster Box",
+            "costBasis": 213.49,
+            "quantity": 1
+        }, {
+            "name": "Strixhaven: School of Mages Draft Booster Box",
+            "costBasis": 115.24,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Commander Legends: Battle for Baldur's Gate",
+        "endpointName": "Commander+Legends+Battle+for+Baldurs+Gate",
+        "items": [{
+            "name": "Commander Legends: Battle for Baldur's Gate Collector Booster Box",
+            "costBasis": 270.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Streets of New Capenna",
+        "endpointName": "Streets+of+New+Capenna",
+        "items": [{
+            "name": "Streets of New Capenna Collector Booster Box",
+            "costBasis": 187.48,
+            "quantity": 1
+        },{
+            "name": "Streets of New Capenna Draft Booster Box",
+            "costBasis": 96.65,
+            "quantity": 2
+        },{
+            "name": "Streets of New Capenna Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Innistrad: Midnight Hunt",
+        "endpointName": "Innistrad+Midnight+Hunt",
+        "items": [{
+            "name": "Innistrad: Midnight Hunt Collector Booster Box",
+            "costBasis": 159.90,
+            "quantity": 1
+        },{
+            "name": "Innistrad: Midnight Hunt Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Innistrad: Crimson Vow",
+        "endpointName": "Innistrad+Crimson+Vow",
+        "items": [{
+            "name": "Innistrad: Crimson Vow Collector Booster Box",
+            "costBasis": 136.65,
+            "quantity": 2
+        },{
+            "name": "Innistrad: Crimson Vow Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Kamigawa: Neon Dynasty",
+        "endpointName": "Kamigawa+Neon+Dynasty",
+        "items": [{
+            "name": "Kamigawa: Neon Dynasty Collector Booster Box",
+            "costBasis": 203.79,
+            "quantity": 1
+        },{
+            "name": "Kamigawa: Neon Dynasty Draft Booster Box",
+            "costBasis": 99.20,
+            "quantity": 2
+        },{
+            "name": "Kamigawa: Neon Dynasty Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Dominaria United",
+        "endpointName": "Dominaria+United",
+        "items": [{
+            "name": "Dominaria United Collector Booster Box",
+            "costBasis": 205.00,
+            "quantity": 1
+        },{
+            "name": "Dominaria United Draft Booster Box",
+            "costBasis": 120.00,
+            "quantity": 1
+        },{
+            "name": "Dominaria United Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Modern Horizons 2",
+        "endpointName": "Modern+Horizons+2",
+        "items": [{
+            "name": "Modern Horizons 2 Collector Booster Pack",
+            "costBasis": 35.50,
+            "quantity": 1
+        },{
+            "name": "Modern Horizons 2 Bundle",
+            "costBasis": 60.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Double Masters 2022",
+        "endpointName": "Double+Masters+2022",
+        "items": [{
+            "name": "Double Masters 2022 Draft Booster Box",
+            "costBasis": 150.00,
+            "quantity": 1
+        }]
+    }]
+}
