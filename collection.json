@@ -4,123 +4,114 @@
     "sealedProduct": [{
         "displaySetName": "Strixhaven",
         "endpointName": "Strixhaven+School+of+Mages",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 213.49,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 1,
-        "draftBoosterCostBasis": 115.24,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 0,
-        "wholeSetCostBasis": 0
+        "items": [{
+            "name": "Strixhaven: School of Mages Collector Booster Box",
+            "costBasis": 213.49,
+            "quantity": 1
+        }, {
+            "name": "Strixhaven: School of Mages Draft Booster Box",
+            "costBasis": 115.24,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Commander Legends Battle for Baldur's Gate",
         "endpointName": "Commander+Legends+Battle+for+Baldurs+Gate",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 270.00,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 0,
-        "draftBoosterCostBasis": 0.00,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 0,
-        "wholeSetCostBasis": 0
+        "items": [{
+            "name": "Commander Legends: Battle for Baldur's Gate Collector Booster Box",
+            "costBasis": 270.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Streets of New Capenna",
         "endpointName": "Streets+of+New+Capenna",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 187.48,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 2,
-        "draftBoosterCostBasis": 96.65,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 1,
-        "wholeSetCostBasis": 75.00
+        "items": [{
+            "name": "Streets of New Capenna Collector Booster Box",
+            "costBasis": 187.48,
+            "quantity": 1
+        },{
+            "name": "Streets of New Capenna Draft Booster Box",
+            "costBasis": 96.65,
+            "quantity": 2
+        },{
+            "name": "Streets of New Capenna Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Innistrad: Midnight Hunt",
         "endpointName": "Innistrad+Midnight+Hunt",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 159.90,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 0,
-        "draftBoosterCostBasis": 0.00,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 1,
-        "wholeSetCostBasis": 75.00
+        "items": [{
+            "name": "Innistrad: Midnight Hunt Collector Booster Box",
+            "costBasis": 159.90,
+            "quantity": 1
+        },{
+            "name": "Innistrad: Midnight Hunt Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Innistrad: Crimson Vow",
         "endpointName": "Innistrad+Crimson+Vow",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 159.90,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 0,
-        "draftBoosterCostBasis": 0.00,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 1,
-        "wholeSetCostBasis": 75.00
+        "items": [{
+            "name": "Innistrad: Crimson Vow Collector Booster Box",
+            "costBasis": 136.65,
+            "quantity": 2
+        },{
+            "name": "Innistrad: Crimson Vow Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Kamigawa: Neon Dynasty",
         "endpointName": "Kamigawa+Neon+Dynasty",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 203.79,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 2,
-        "draftBoosterCostBasis": 99.20,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 1,
-        "wholeSetCostBasis": 75.00
+        "items": [{
+            "name": "Kamigawa: Neon Dynasty Collector Booster Box",
+            "costBasis": 203.79,
+            "quantity": 1
+        },{
+            "name": "Kamigawa: Neon Dynasty Draft Booster Box",
+            "costBasis": 99.20,
+            "quantity": 2
+        },{
+            "name": "Kamigawa: Neon Dynasty Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Dominaria United",
         "endpointName": "Dominaria+United",
-        "collectorsBoosterBoxQuantity": 1,
-        "collectorsBoosterCostBasis": 205.00,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 1,
-        "draftBoosterCostBasis": 120.00,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 1,
-        "wholeSetCostBasis": 75.00
+        "items": [{
+            "name": "Dominaria United Collector Booster Box",
+            "costBasis": 205.00,
+            "quantity": 1
+        },{
+            "name": "Dominaria United Draft Booster Box",
+            "costBasis": 120.00,
+            "quantity": 1
+        },{
+            "name": "Dominaria United Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Modern Horizons 2",
         "endpointName": "Modern+Horizons+2",
-        "collectorsBoosterBoxQuantity": 0,
-        "collectorsBoosterCostBasis": 0.00,
-        "collectorsSingleBoosterQuantity": 1,
-        "collectorsSingleBoosterCostBasis": 35.50,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 0,
-        "draftBoosterCostBasis": 0.00,
-        "bundleQuantity": 1,
-        "bundleCostBasis": 60.00,
-        "wholeSetQuantity": 0,
-        "wholeSetCostBasis": 0.00
+        "items": [{
+            "name": "Modern Horizons 2 Collector Booster Pack",
+            "costBasis": 35.50,
+            "quantity": 1
+        },{
+            "name": "Modern Horizons 2 Bundle",
+            "costBasis": 60.00,
+            "quantity": 1
+        }]
     },{
         "displaySetName": "Double Masters 2022",
         "endpointName": "Double+Masters+2022",
-        "collectorsBoosterBoxQuantity": 0,
-        "collectorsBoosterCostBasis": 0.00,
-        "collectorsSingleBoosterQuantity": 0,
-        "collectorsSingleBoosterCostBasis": 0.00,
-        "setBoosterBoxQuantity": 0,
-        "setBoosterCostBasis": 0.00,
-        "draftBoosterBoxQuantity": 1,
-        "draftBoosterCostBasis": 150.00,
-        "bundleQuantity": 0,
-        "bundleCostBasis": 0.00,
-        "wholeSetQuantity": 0,
-        "wholeSetCostBasis": 0.00
+        "items": [{
+            "name": "Double Masters 2022 Draft Booster Box",
+            "costBasis": 150.00,
+            "quantity": 1
+        }]
     }]
 }
