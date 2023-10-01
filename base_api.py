@@ -1,4 +1,5 @@
 import requests
+import re
 
 class Base_Api:
     def __init__(self, baseURL = "", postFix = ""):
@@ -13,3 +14,8 @@ class Base_Api:
             print(e)
         
         return response
+    
+    def find_tables(responseText):
+        tables = []
+        tables = re.findall("(<table.*?>.*?</table>)", responseText)
+        return tables
