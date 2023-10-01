@@ -16,6 +16,7 @@ class Base_Api:
         return response
     
     def find_tables(responseText):
+        # If I was doing heavier HTML operations, I'd use a dedicated HTML parser
         tables = []
         tables = re.findall("(<table.*?>.*?</table>)", responseText)
         return tables
