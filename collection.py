@@ -5,7 +5,7 @@ class MTG_Sealed_Collection:
     def __init__(self, apiOverride = None, queryOnInit = True, collection = {}):
         self._collection = collection
         if apiOverride is None:
-            self._api = Base_Api(self._collection['apiBase'],self._collection['apiPostfix'])
+            self._api = Base_Api(self._collection['apiBase'],self._collection['apiSealedPostfix'],self._collection['apiCompleteSetPostfix'])
         else:
             self._api = apiOverride
         
@@ -21,14 +21,20 @@ class MTG_Sealed_Collection:
     def queryCurrentMarketPrices(self):
         api = self.getApi()
         for mtgSet in self._collection['sealedProduct']:
-            response = api.make_get_request(mtgSet['endpointName'])
-            tables = api.find_tables(response.text)
+            completeSetResponse = api.make_get_request(mtgSet['endpointName'], getSealedProduct=False)
+            completeSetMarketPrice = float(api.find_complete_set_price(completeSetResponse.text))
+
+            sealedProductResponse = api.make_get_request(mtgSet['endpointName'])
+            tables = api.find_tables(sealedProductResponse.text)
             parsed_table = api.parse_table(tables[0], ['Card Num', 'Mana Cost', 'Rarity'])
             for item in mtgSet['items']:
                 if item['name'] in parsed_table.keys():
                     item['marketPrice'] = float(parsed_table[item['name']]['Tabletop Price'])
                 else:
-                    item['marketPrice'] = 0
+                    if 'Complete Set' in item['name']:
+                        item['marketPrice'] = completeSetMarketPrice
+                    else:
+                        item['marketPrice'] = 0
 
 
     def getTotalCostBasis(self):

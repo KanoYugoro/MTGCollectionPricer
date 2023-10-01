@@ -1,6 +1,7 @@
 {
     "apiBase": "https://www.mtggoldfish.com/sets",
-    "apiPostfix": "Sealed#paper",
+    "apiSealedPostfix": "Sealed#paper",
+    "apiCompleteSetPostfix": "Main+Set#paper",
     "sealedProduct": [{
         "displaySetName": "Strixhaven: School of Mages",
         "endpointName": "Strixhaven+School+of+Mages",

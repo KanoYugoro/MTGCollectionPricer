@@ -3,14 +3,21 @@ import re
 from lxml import etree
 
 class Base_Api:
-    def __init__(self, baseURL = "", postFix = ""):
+    def __init__(self, baseURL = "", sealedPostFix = "", completeSetPostfix = ""):
         self._baseURL = baseURL
-        self._postFix = postFix
+        self._sealedPostFix = sealedPostFix
+        self._completeSetPostfix = completeSetPostfix
 
-    def make_get_request(self, endpoint):
+    def make_get_request(self, endpoint, getSealedProduct = True):
         response = ""
         try:
-            response = requests.get(f"{self._baseURL}/{endpoint}/{self._postFix}")
+            url = f"{self._baseURL}/{endpoint}/"
+            if (getSealedProduct):
+                url = f"{url}/{self._sealedPostFix}"
+            else:
+                url = f"{url}/{self._completeSetPostfix}"
+            
+            response = requests.get(url)
         except e:
             print(e)
         
@@ -23,6 +30,11 @@ class Base_Api:
         for table in tables:
             parsed_tables.append(etree.HTML(table).find("body/table"))
         return parsed_tables
+    
+    def find_complete_set_price(self, responseText):
+        rawText = etree.HTML(responseText).find(".//div[@class='price-box paper']").find(".//div[@class='price-box-price']").text
+        completeSetPrice = float(rawText.replace('$\xa0', '').replace(',',''))
+        return completeSetPrice
 
     def parse_table(self, table, filterHeaders = []):
         finalTable = {}
