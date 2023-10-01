@@ -42,7 +42,7 @@ class Base_Api:
                     if (columns[itemCount]) == "Card":
                         finalRow[columns[itemCount]] = item.findtext("span/a")
                     else:
-                        finalRow[columns[itemCount]] = item.text
+                        finalRow[columns[itemCount]] = str(item.text).replace('$\xa0', '')
                 itemCount += 1
             finalTable.append(finalRow)
 
