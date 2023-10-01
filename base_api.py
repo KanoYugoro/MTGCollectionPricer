@@ -16,7 +16,7 @@ class Base_Api:
         
         return response
     
-    def find_tables(responseText):
+    def find_tables(self, responseText):
         tables = []
         tables = re.findall("(<table.*?>.*?</table>)", responseText)
         parsed_tables = []
@@ -24,8 +24,8 @@ class Base_Api:
             parsed_tables.append(etree.HTML(table).find("body/table"))
         return parsed_tables
 
-    def parse_table(table, filterHeaders = []):
-        finalTable = []
+    def parse_table(self, table, filterHeaders = []):
+        finalTable = {}
 
         header = table.find("thead/tr")
         headerItems = iter(header)
@@ -44,7 +44,7 @@ class Base_Api:
                     else:
                         finalRow[columns[itemCount]] = str(item.text).replace('$\xa0', '')
                 itemCount += 1
-            finalTable.append(finalRow)
+            finalTable[finalRow['Card']] = finalRow
 
         return finalTable
                 
