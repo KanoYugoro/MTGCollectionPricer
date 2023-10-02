@@ -114,5 +114,53 @@
             "costBasis": 150.00,
             "quantity": 1
         }]
+    },{
+        "displaySetName": "March of the Machine",
+        "endpointName": "March+of+the+Machine",
+        "items": [{
+            "name": "March of the Machine Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        },{
+            "name": "March of the Machine Draft Booster Box",
+            "costBasis": 100.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Dominaria Remastered",
+        "endpointName": "Dominaria+Remastered",
+        "items": [{
+            "name": "Dominaria Remastered Collector Booster Box",
+            "costBasis": 240.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "The Brothers' War",
+        "endpointName": "The+Brothers+War",
+        "items": [{
+            "name": "The Brothers' War Complete Set",
+            "costBasis": 75.00,
+            "quantity": 1
+        },{
+            "name": "The Brothers' War Collector Booster Box",
+            "costBasis": 175.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Phyrexia: All Will Be One",
+        "endpointName": "PhyrexiaAll+Will+Be+One",
+        "items": [{
+            "name": "Phyrexia: All Will Be One Complete Set",
+            "costBasis": 100.00,
+            "quantity": 1
+        },{
+            "name": "Phyrexia: All Will Be One Collector Booster Box",
+            "costBasis": 225.98,
+            "quantity": 1
+        },{
+            "name": "Phyrexia: All Will Be One Draft Booster Box",
+            "costBasis": 128.23,
+            "quantity": 1
+        }]
     }]
 }
