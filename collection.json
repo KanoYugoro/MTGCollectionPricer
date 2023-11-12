@@ -162,5 +162,21 @@
             "costBasis": 128.23,
             "quantity": 1
         }]
+    },{
+        "displaySetName": "Lost Caverns of Ixalan",
+        "endpointName": "Lost+Caverns+of+Ixalan",
+        "items": [{
+            "name": "Lost Caverns of Ixalan Draft Booster Box",
+            "costBasis": 120.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Commander Masters",
+        "endpointName": "Commander+Masters",
+        "items": [{
+            "name": "Commander Masters Collector Booster Box",
+            "costBasis": 189.50,
+            "quantity": 1
+        }]
     }]
 }
