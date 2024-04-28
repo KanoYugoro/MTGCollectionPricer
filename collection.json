@@ -32,7 +32,7 @@
         },{
             "name": "Streets of New Capenna Draft Booster Box",
             "costBasis": 96.65,
-            "quantity": 2
+            "quantity": 1
         },{
             "name": "Streets of New Capenna Complete Set",
             "costBasis": 75.00,
@@ -177,6 +177,34 @@
             "name": "Commander Masters Collector Booster Box",
             "costBasis": 189.50,
             "quantity": 1
+        }]
+    },{
+        "displaySetName": "Ravnica: Murders at Karlov Manor",
+        "endpointName": "Ravnica+Murders+at+Karlov+Manor",
+        "items": [{
+            "name": "Murders at Karlov Manor Play Booster Box",
+            "costBasis": 125.00,
+            "quantity": 2
+        }]
+    },{
+        "displaySetName": "Fallout",
+        "endpointName": "Fallout",
+        "items": [{
+            "name": "Fallout Commander Deck: Hail, Caesar",
+            "costBasis": 37.50,
+            "quantity": 2
+        },{
+            "name": "Fallout Commander Deck: Mutant Menace",
+            "costBasis": 37.50,
+            "quantity": 2
+        },{
+            "name": "Fallout Commander Deck: Science!",
+            "costBasis": 37.50,
+            "quantity": 2
+        },{
+            "name": "Fallout Commander Deck: Scrappy Survivors",
+            "costBasis": 37.50,
+            "quantity": 2
         }]
     }]
 }
