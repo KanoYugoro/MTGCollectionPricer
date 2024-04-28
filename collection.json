@@ -166,8 +166,20 @@
         "displaySetName": "Lost Caverns of Ixalan",
         "endpointName": "Lost+Caverns+of+Ixalan",
         "items": [{
+            "name": "Lost Caverns of Ixalan Complete Set",
+            "costBasis": 100.00,
+            "quantity": 1
+        },{
             "name": "Lost Caverns of Ixalan Draft Booster Box",
             "costBasis": 120.00,
+            "quantity": 1
+        }]
+    },{
+        "displaySetName": "Wilds of Eldraine",
+        "endpointName": "Wilds+of+Eldraine",
+        "items": [{
+            "name": "Wilds of Eldraine Complete Set",
+            "costBasis": 100.00,
             "quantity": 1
         }]
     },{
